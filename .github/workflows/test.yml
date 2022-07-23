@@ -1,0 +1,10 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  print_words:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This is action from github event"

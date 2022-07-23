@@ -26,7 +26,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '11'
-        Distribution: temurin
+        Distribution: 'temurin'
     - name: Set the permission
       run: chmod +x gradlew      
     - name: Build with Gradle
